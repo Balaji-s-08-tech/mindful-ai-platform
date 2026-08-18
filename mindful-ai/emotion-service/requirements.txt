@@ -1,0 +1,22 @@
+# MindfulAI Emotion Detection Service — Python Dependencies
+
+# Web framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.7
+pydantic==2.5.3
+
+# Computer vision & emotion detection
+opencv-python-headless==4.9.0.80
+deepface==0.0.88
+numpy==1.26.3
+
+# TensorFlow (required by DeepFace)
+tensorflow==2.15.0 
+
+# HTTP client for service communication
+httpx==0.26.0
+
+# Utilities
+python-dotenv==1.0.0
+pillow==10.2.0

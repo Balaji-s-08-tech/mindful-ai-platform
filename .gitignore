@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+
+# Environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime / OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AI Artifacts
+.claude/
+.claude-code/
+.cursor/
+.cursor-cache/
+.cursor-tmp/
+.gemini/
+.antigravity/
+.aider/
+.aider*
+.copilot/
+.codeium/
+.roo/
+.roocode/
+.windsurf/
+.cline/
+.continue/
+.history/
